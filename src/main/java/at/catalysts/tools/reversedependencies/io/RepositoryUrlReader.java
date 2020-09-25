@@ -29,7 +29,9 @@ import at.catalysts.tools.reversedependencies.data.UrlDirectory;
  */
 public class RepositoryUrlReader {
 
-    private static final String REGEX_HYPERLINK = "<a\\ href=\"(.+?)\">";
+   // private static final String REGEX_HYPERLINK = "<a\\ href=\"(.+?)\">";
+	
+    private static final String REGEX_HYPERLINK = "<a\\ href=\"(.+?)\"";
     private static final String FILEENDING_POM = ".pom";
 
     private String repositoryUrl;

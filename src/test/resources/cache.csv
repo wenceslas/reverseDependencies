@@ -6,3 +6,8 @@ junit,junit,4.8.1,maven-compiler-plugin,org.apache.maven.plugins,3.3
 junit,junit,4.12,maven-compiler-plugin,org.apache.maven.plugins,3.5
 junit,junit,4.12,maven-compiler-plugin,org.apache.maven.plugins,3.5.1
 junit,junit,4.12,maven-compiler-plugin,org.apache.maven.plugins,3.6.0
+junit,junit,4.12,maven-compiler-plugin,org.apache.maven.plugins,3.6.1
+junit,junit,4.12,maven-compiler-plugin,org.apache.maven.plugins,3.6.2
+junit,junit,4.12,maven-compiler-plugin,org.apache.maven.plugins,3.7.0
+junit,junit,4.12,maven-compiler-plugin,org.apache.maven.plugins,3.8.0
+junit,junit,4.12,maven-compiler-plugin,org.apache.maven.plugins,3.8.1
