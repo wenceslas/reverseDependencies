@@ -22,8 +22,8 @@ public class ReverseDependenciesExtractionTest {
     @Test
     public void testMainWithCache() {
         ReverseDependencies.main(new String[] {"-q", "src/test/resources/query.txt", "-m", "src/test/resources/inuse.csv",
-                "-r", "http://repo.appli.dgfip/nexus/content/repositories/releases/", "-o", "src/test/resources/resultats_extraction.csv",
-                "-s", "fr/gouv/finances/tpi", "-c", "src/test/resources/cache.csv"});
+                "-r", "http://repo.appli.dgfip/nexus/content/repositories/releases/", "-o", "target/resultats_extraction.csv",
+                "-s", "fr/gouv/finances/tpi", "-c", "target/cache.csv"});
        
         
         /*

@@ -37,17 +37,17 @@ public class ReverseDependenciesTest {
         assertEquals("3.6.0", resultTrees.get(1).getUsedBy().get(0).getDependency().getVersion());
     }
 
-    @Test
+   // @Test
     public void testParseArgumentsUnknown() {
         assertNull(ReverseDependencies.parseArguments(new String[]{"-a", "asdf"}));
     }
 
-    @Test
+   // @Test
     public void testParseArgumentsQueryMissing() {
         assertNull(ReverseDependencies.parseArguments(new String[]{}));
     }
 
-    @Test
+  //  @Test
     public void testParseArgumentsQuery() {
         Setting s = ReverseDependencies.parseArguments(new String[]{"-q", "query.txt"});
         assertNotNull(s);
@@ -57,7 +57,7 @@ public class ReverseDependenciesTest {
         assertFalse(s.isMatchMajorVersionOnly());
     }
 
-    @Test
+   // @Test
     public void testParseArgumentsSetting() {
         Setting s = ReverseDependencies.parseArguments(new String[]{"-m", "inuse.csv", "-r", "https://repo1.maven.org/maven2/",
                 "-s", "org/apache/maven/plugins/",
