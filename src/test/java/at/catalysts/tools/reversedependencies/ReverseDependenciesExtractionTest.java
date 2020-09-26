@@ -23,7 +23,7 @@ public class ReverseDependenciesExtractionTest {
     public void testMainWithCache() {
         ReverseDependencies.main(new String[] {"-q", "src/test/resources/query.txt", "-m", "src/test/resources/inuse.csv",
                 "-r", "http://repo.appli.dgfip/nexus/content/repositories/releases/", "-o", "target/resultats_extraction.csv",
-                "-s", "fr/gouv/finances/tpi", "-c", "target/cache.csv"});
+                "-s", "fr/gouv/finances/", "-c", "target/cache.csv"});
        
         
         /*
