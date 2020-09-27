@@ -24,8 +24,8 @@ public class ReverseDependenciesExtractionTest {
 
 
         ReverseDependencies.main(new String[] {"-q", "src/test/resources/query_extraction.txt", "-m", "src/test/resources/inuse.csv",
-                "-r", "http://repo.appli.dgfip/nexus/content/repositories/releases/", "-o", "target/resultats_extraction.csv",
-                "-s", "repositoris", "-c", "target/cache.csv"});
+                "-r", "http://repo.appli.dgfip/nexus/content/repositories/", "-o", "target/resultats_extraction.csv",
+                "-s", "releases", "-c", "target/cache.csv"});
         
         /*
         DependencyFileReader reader = new DependencyFileReader("src/test/resources/results.csv");
