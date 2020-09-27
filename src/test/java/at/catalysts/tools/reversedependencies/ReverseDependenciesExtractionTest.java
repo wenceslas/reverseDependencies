@@ -21,10 +21,11 @@ public class ReverseDependenciesExtractionTest {
     @Category(IntegrationTest.class)
     @Test
     public void testMainWithCache() {
-        ReverseDependencies.main(new String[] {"-q", "src/test/resources/query.txt", "-m", "src/test/resources/inuse.csv",
+
+
+        ReverseDependencies.main(new String[] {"-q", "src/test/resources/query_extraction.txt", "-m", "src/test/resources/inuse.csv",
                 "-r", "http://repo.appli.dgfip/nexus/content/repositories/releases/", "-o", "target/resultats_extraction.csv",
-                "-s", "fr/gouv/finances/", "-c", "target/cache.csv"});
-       
+                "-s", "repositoris", "-c", "target/cache.csv"});
         
         /*
         DependencyFileReader reader = new DependencyFileReader("src/test/resources/results.csv");
